@@ -11,9 +11,9 @@ Based on the analysis of the outcomes based on Launch date, we can see that most
 ### Analysis of Outcomes Based on Goals
 We can see that at up to a goal of approximately $5000 over 70% of campaigns are successful, and then it starts to drop of pretty dramatically from there, until we hit the $35,000 to $45,000 threshold where successful spike back to 66.7% success before dropping off again.  This is, however, a much smaller group of only 9 campaign launches in the $35-45k range, versus a total of 529 campaign launches under $5000 so perhaps we should not put too much weight behind this spike in data.  Interestingly, the failed outcomes curve is a mirror image of the successful curve, and there are 0 cancelled campaigns in this dataset.
 ### Challenges and Difficulties Encountered
-During the analysis, the biggest challenge I came across was using the COUNTIFS function.  The information provided was a great start, however when needed to add the range of funding goals (eg 1000-4999, 5000-9999) I had to do some of my own research and experimentation.  After some time, I was successful.  Having to manually complete the Outcomes based on Goals chart was good practice and helped re-enforce the learning. 
+During the analysis, the biggest challenge I came across was using the COUNTIFS function.  The information provided was a great start, however when needed to add the range of funding goals (eg 1000-4999, 5000-9999) I had to do some of my own research and experimentation.  After some time, I was successful.  I had trouble trying to figure out where to put the upper limit, and I eventually figured out the upper limit had to be it's own argument.  Having to manually complete the Outcomes based on Goals chart was good practice and helped re-enforce the learning. 
 
-Here is my code: =COUNTIFS(Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999",Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays")
+Here is a screenchot of my code:
 ![This is an image](https://github.com/Brents-Github/kickstarter-analysis/blob/main/Countifs_screen_shot.png)
 
 ## Results
