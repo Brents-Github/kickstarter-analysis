@@ -1,10 +1,7 @@
-# An Analysis of Kickstarter Campaigns
-Performing analysis on Kickstarter data to uncover trends regarding successful funding of Theatre-based Kickstarter Campaigns
-
 # Kickstarting with Excel
 
 ## Overview of Project
-
+Performing analysis on Kickstarter data to uncover trends regarding successful funding of Theatre-based Kickstarter Campaigns
 ### Purpose
 
 ## Analysis and Challenges
