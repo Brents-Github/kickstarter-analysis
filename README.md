@@ -32,4 +32,5 @@ The data does not include any reviews of the successful and failed plays, which 
 
 - What are some other possible tables and/or graphs that we could create?
 
-Creating a chart based on the total number of successful and failed will help us visualize the data to give us insight on some spikes in the Outcomes based on Goal chart we created, essentially explaining that the spike at $35-45k was a bit of an anomaly when looking at the total number of projects.  In fact, it barely registered at all.  I have included this chart in my resources: https://github.com/Brents-Github/kickstarter-analysis/commit/ceb91d0a7c21a5c19590f429ab44cd7486f46e33
+Creating a chart based on the total number of successful and failed will help us visualize the data to give us insight on some spikes in the Outcomes based on Goal chart we created, essentially explaining that the spike at $35-45k was a bit of an anomaly when looking at the total number of projects.  In fact, it barely registered at all as you can see in the chart below:
+![This is an image](https://github.com/Brents-Github/kickstarter-analysis/blob/main/Number%20of%20Successful%20vs.%20Failed.png)
