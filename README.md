@@ -14,6 +14,7 @@ We can see that at up to a goal of approximately $5000 over 70% of campaigns are
 During the analysis, the biggest challenge I came across was using the COUNTIFS function.  The information provided was a great start, however when needed to add the range of funding goals (eg 1000-4999, 5000-9999) I had to do some of my own research and experimentation.  After some time, I was successful.  Having to manually complete the Outcomes based on Goals chart was good practice and helped re-enforce the learning. 
 
 Here is my code: =COUNTIFS(Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999",Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays")
+![This is an image]
 
 ## Results
 
