@@ -29,7 +29,7 @@ The goal for the Kickstarter funding should not exceed $5000 for the greatest ch
 
 - What are some limitations of this dataset?
 
-The data does not include any reviews of the successful and failed plays, which could add additional insight.  Also, the Kickstarter data is quite old, with the most recent campaigns dating back to 2017.  I would have liked to have more recent data.
+It would be nice to have an additional subcategory of types of plays, like comedy, drama etc to really drill down further into the analysis.  Also, the Kickstarter data is quite old, with the most recent campaigns dating back to 2017.  I would have liked to have more recent data.
 
 - What are some other possible tables and/or graphs that we could create?
 
